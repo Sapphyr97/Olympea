@@ -1,0 +1,36 @@
+#fond{
+    background-color: rgb(150, 172, 185);
+    background-image: url(https://piimages.parfumo.de/6/1/58758_184a743ec6cb3662d6c5e968b148b961_olympea.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:1500px;
+    background-position:center;
+}
+#tab{
+    position: center;
+    margin-left:5%;
+}
+
+#cellule{
+    padding: 50px 50px 50px 50px;
+
+}
+#acces{
+    margin-left: 80px;
+}
+
+.card {
+    width: 250px;
+    border:none;
+    border-radius:10px;
+    background-color: rgb(168, 167, 167);
+}
+.img{
+    width:170px;
+    height:200px;
+    border-radius:10px;
+    margin-left:35px;
+}
+.profil{
+    margin-left:35px;
+}

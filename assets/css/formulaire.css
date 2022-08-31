@@ -1,0 +1,112 @@
+body{
+    background-image: url("https://www.oui-lemag.com/wp-content/uploads/2017/01/bg_invictus_olympea.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:40px;
+    
+    font-size:medium;
+    text-align:  justify;
+    text-align: center;
+    
+
+}
+     
+.container{
+     margin-left: 60%;
+     display:block;
+     justify-content: center;
+     border: solid  2px black;
+     background-color:darkgray;
+     width:500px;
+     height:700px;
+    }
+        
+         
+
+     
+
+ #me{
+     font-size: medium;
+     }
+
+ #user{
+     font-size: medium;
+    /* margin-left: 40%; */
+ }
+#username{
+    
+        width: 250px;
+        height:30px;
+        background-color:lightgrey;
+        border:2px solid black;
+        padding-bottom: 5px;
+        margin-left: 55px;  
+    }
+
+#username1,#date{
+    
+    width: 250px;
+    height:30px;
+    background-color:lightgrey;
+    border:2px solid black;
+    padding-bottom: 5px;
+    margin-right: 55px; 
+                   
+    }
+
+ p{
+    font-size:small ;
+    text-align: justify;
+    }     
+
+ #mail{
+     width: 250px;
+     height:30px;
+     background-color:lightgrey;
+     border:2px solid black;
+     padding-bottom: 5px;
+        
+         }
+         
+ #password{
+     width: 250px;
+     height:30px;
+     background-color:lightgrey;
+     border:2px solid black;
+     padding-bottom: 5px;
+       
+             }
+
+ input[type= checkbox] { border: 1px; width:20px; height: 20px;
+                        }
+
+#submit,#btn2{
+    border:2px solid black;
+    font-size: medium; 
+    padding-bottom: 5px; 
+    margin-bottom:20px;
+    width: 250px;
+    height:30px;
+    background-color:darkgoldenrod;
+    text-align: center;
+}
+ 
+#password2{
+    width: 250px;
+    height:30px;
+    background-color:lightgrey;
+    border:2px solid black;
+    padding-bottom: 5px;
+       
+        }
+
+        #email2{
+            width: 250px;
+            height:30px;
+            background-color:lightgrey;
+            border:2px solid black;
+            padding-bottom: 5px;
+               
+                }

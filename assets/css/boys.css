@@ -1,0 +1,44 @@
+#fond{
+    background-color: black;
+}
+p{color: rgb(180, 177, 175)}
+
+#cellule{
+    padding: 50px 50px 50px 50px;
+
+}
+
+.card {
+    width: 250px;
+    border:none;
+    border-radius:10px;
+    background-color: rgb(168, 167, 167);
+}
+
+.img{
+    width:170px;
+    height:200px;
+    border-radius:10px;
+    margin-left:35px;
+}
+.profil{
+    margin-left:35px;
+}
+
+.header {
+padding: 100px;
+text-align: center;
+background-image: url("https://piimages.parfumo.de/6/1/58758_184a743ec6cb3662d6c5e968b148b961_olympea.jpg");
+background-size: 1600px 500px ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: black;
+}
+
+/* ici on defini la taille du h1 qui ce de trouve dans le header de cette façon */
+.header h1 {
+font-size: 100px;
+}
+#acces{
+margin-left: 80px;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <title>Marion</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="../css/marion.css">
+    </head>
+
+
+<body>
+<!-- Div entete-->
+    <div class="header">
+    <h1><em> OLYMPEA</em></h1>
+    </div> <br><br>
+
+
+<!-- Div 100%-->
+    <div class="row">
+    
+<!-- Div 70%-->
+    <div class="side">
+        <table>
+            <tr>
+                <td class="td1">
+                    <div class="slideshow">
+                        <ul>
+                        <li><img src="https://px.cdn.lanueva.com/092015/1511568598256.jpg" alt="" width="350" height="600px" /></li>
+                        <li><img src="https://static1.puretrend.com/articles/7/11/49/57/@/1327462-marion-cotillard-en-robe-courte-et-580x0-2.jpg" alt=""width="350" height="600px" /></li>
+                        <li><img src="https://i.pinimg.com/originals/ca/bc/c1/cabcc1a1dfc0462a55d05fbb40191b8b.jpg" alt="" width="350" height="600px" /></li>
+                        </ul>
+                    </div>
+                </td>
+        
+                <td>
+                    <div class="profil">
+                    <h1 class="user"><center><b>Mari.Co</b></center></h1>
+
+                    <table class="tab">
+
+                    <tr class="hop"> 
+                    <td class="table-warning"><u>Nom</u></td>
+                    <td class="table-warning">Cotillard</td> </tr> 
+            
+
+                    <tr class="hop"> 
+                    <td class="table-warning"><u>Prénom</u> </td>
+                    <td class="table-warning"> Marion </td> </tr>
+
+                    <tr class="hop"> 
+                    <td class="table-warning"><u>Age</u> </td>
+                    <td class="table-warning">46 ans </td> </tr>
+
+                    <tr class="hop"> 
+                    <td class="table-warning"><u>Profession</u></td>
+                    <td class="table-warning"> Actrice </td> </tr>
+
+                    <tr class="hop"> 
+                    <td class="table-warning"><u>Hobbies</u></td>
+                    <td class="table-warning">Les films, la photographie</td> </tr>
+
+                    <tr class="hop"> 
+                    <td class="table-warning"><u>Centre d'intérets</u></td>
+                    <td class="table-warning">Le cinéma, la mode; la famille</td> </tr>
+                   
+
+                    <tr class="hop"> 
+                    <td class="table-warning"><u>A propos de moi </u></td>
+                    <td class="table-warning">	Taxi,Un long dimanche de fiançailles,La Môme,Inception,Annette</td> </tr>
+        
+                    </table>
+                    </div>  
+             
+                </td>
+                
+            </tr>
+    
+        </table>
+        
+    </div>
+
+
+<!-- Div 30%-->
+    <div class="main" >
+            
+            <center><button type ="button" id="tchat" class="btn btn-basic" onclick= "cachette();">Paramètres</button></center>
+            
+            <div class="para">
+
+            <div class="reglage">
+            <button class="btn btn-warning " type="button" >Modifier Pseudo</button><br>
+            <button class="btn btn-warning " type="button">Modifier Nom</button><br>
+            <button class="btn btn-warning " type="button">Modifier Prénom</button><br>
+            <button class="btn btn-warning " type="button">Modifier Age </button><br>
+            <button class="btn btn-warning " type="button">Modifier Hobbies</button><br>
+            </div>
+
+            <div class="photo">
+            <button class="btn btn-warning " type="button">Modifer Intéret</button><br>
+            <button class="btn btn-warning " type="button">Modifier Profession</button><br>
+            <button class="btn btn-warning " type="button">Modifier A propos</button><br>
+            <button class="btn btn-warning " type="button" >Modifier Photo</button><br>
+            <button class="btn btn-warning " type="button">Ajouter Photo</button>
+            </div>
+    
+        </div>
+       
+    </div>
+
+</div>
+
+
+<script>
+
+$(function(){
+    setInterval(function(){
+       $(".slideshow ul").animate({marginLeft:-1},1000,function(){
+          $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
+       })
+    }, 3500);
+ });
+</script>
+
+
+</body>
+</html>

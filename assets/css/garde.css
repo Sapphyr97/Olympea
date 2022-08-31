@@ -1,0 +1,58 @@
+.Connex{
+ -webkit-text-size-adjust: 100%;
+line-height:40;
+color: yellow;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+text-align: center;
+font-family: Arial;
+margin-left:430px;
+margin-top:300px;
+position: fixed;
+width: 500px;
+
+
+}
+
+.tit{
+-webkit-text-size-adjust: 100%;
+font-size: 570%;
+color:rgb(226, 161, 57);
+font-family: Georgia,serif;
+letter-spacing: 10px;
+text-align: center;
+position: fixed;
+line-height:3.5;
+
+}
+
+#coco {
+    -webkit-text-size-adjust: 100%;
+    font-family: Arial;
+    font-size: 15px;
+    color: rgb(250, 250, 245);
+    font-stretch: ultra-expanded;
+    letter-spacing: 3px;
+    padding: 8px;
+    margin-left: 10%;
+}
+
+
+
+#bgvid {
+-webkit-text-size-adjust: 100%;
+line-height: 1.4;
+color: #000;
+font-family: Helvetica,Arial,sans-serif;
+/* font-size: 13px; */
+/* letter-spacing: 0; */
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+display: inline-block;
+z-index: -2;
+object-fit: cover;
+width: 100vw;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title>Call me</title>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="../css/formulaire.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+     
+ 
+    <body>
+        <div class="container">
+            <form>
+                <table>
+                    <tr>
+                        <td> <label id="me">Je suis : </label></td>  
+                        <td><input type="radio" name="gender" value="female" id="genderfemale"></td> 
+                        <td><label for="genderfemale">une femme</label></td>
+                        <td><input type="radio" name="gender" value="male" id="gendermale"></td>
+                        <td> <label for="gendermale">un homme</label></td><br>
+                    </tr>
+                    <tr><br>
+                        <td><label id="me">Je cherche : </label></td>
+                        <td>  <input type="radio" name="gender" value="female" id="genderfemale"></td>
+                        <td> <label for="genderfemale">une femme</label></td>
+                        <td><input type="radio" name="gender" value="male" id="gendermale"></td>
+                        <td><label for="gendermale">un homme</label></td>
+                    </tr>
+                </table><br>
+
+                <table>
+                    <tr>
+                        <td> <label>Date de naissance :</label><br></td>
+                        <td> <input type="date" name="date" id="date" ><br></td>
+                        <span class="form_error"></span><br><br>
+                    </tr> 
+                </table><br>
+                
+                <div>
+                    <label id="user1">Pseudo:</label>
+                    <input  type="text" name="text" id="username1">
+                    <span class="form_error"></span>
+                </div>
+
+                <br>
+            
+                <div >
+                    <input type="email" name="email" id="mail" value="" placeholder="Adresse e-mail"/>
+                    <span class="form_error"></span>
+                         
+                </div><br>
+            
+                <div >
+                    <input type="password" name="password" id="password" value="" placeholder="Mot de passe"/>
+                    <span class="form_error"></span>
+                </div> <br><br>
+
+                <table>
+                    <tr>
+                        <td><input type="checkbox" id="box" name="box" value="true"></td>
+                            
+                        <td>
+                            <div><p style="font-size:small;">J'accepte les Conditions Générales d'Utilisation.<br>
+                                Mes données sont collectées conformément à la politique de confidentialité.<br>
+                                Je recevrai des informations sur le produit et des offres spéciales par email.</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                    
+                <div>
+                    <button type="button" id="submit" class="submit-btn">Je m'inscris gratuitement</button><br><br>
+                
+                </div>
+
+                <diV>
+                    <input type="text" id="email2" placeholder="Adresse e-mail"><br><br>
+                    <input type="password"  id="password2" placeholder="Mot de passe"><br><br>
+                    <button  id="btn2">Connexion</button>
+                </diV>
+            </form>
+        </div>
+        <script src="../js/formulaire.js"></script>
+    </body>
+           
+</html>

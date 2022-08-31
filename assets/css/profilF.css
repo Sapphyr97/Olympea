@@ -1,0 +1,188 @@
+    /* grace au etoile je dis bien que cela s'accorde a toute la page  */
+    * {
+        box-sizing: border-box;
+        
+      }
+      
+      /* ici c'est le style de toute la page , */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background-image: url(https://i.pinimg.com/originals/f5/74/fc/f574fc3480db1dcabecde2fb27890e21.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+        background-attachment:relative;
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+      
+      /* voici le header  principal avec la couleur de fond qui va avec */
+      .header {
+        padding: 50px;
+        text-align: center;
+        color:rgb(214, 141, 24);
+        letter-spacing:15px;
+      }
+
+      /* ici on defini la taille du h1 qui ce de trouve dans le header de cette façon */
+      .header h1 {
+        font-size: 80px;
+      }
+      
+    
+      
+      /* le style donnée a ma class row  */
+      .row {  
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        
+        
+      }
+
+
+    /* ici les media querry  qui permet d'adapter la page 
+      au different type d'ecran ici j'imposer a ma div row 
+      et la navbar a 400 pixel*/
+       @media screen and (max-width: 500px) {
+        .row {   
+          flex-direction: column;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .navbar a {
+          float: none;
+          width: 100%; 
+        }
+      } 
+
+
+
+
+
+
+      
+      /* le style donnée a ma classe side*/
+      .side {
+        -ms-flex: 50%; /* IE10 */
+        flex: 50%;
+        padding: 10px;
+        font-family: Times, Times New Roman, serif;
+        font-size: 15px;
+        background:hidden;
+        background-size:cover;
+        margin-top: auto;
+        margin-left: 30px;
+      }
+
+    .slideshow {
+        width: 350px;
+        height: 500px;
+        overflow: hidden;
+        border: 3px solid #F2F2F2;
+        }
+
+    .slideshow ul {
+            /* 4 images donc 4 x 100% */
+        width: 400px;
+        height: 500px;
+        padding:0; 
+        margin:0;
+        list-style: none;
+        }
+        .slideshow li {
+        float: left;
+        
+        }
+        .td1.li{
+            height: 500px;
+        }
+
+    .user{
+        color:cadetblue;
+        letter-spacing:10px;
+    }
+
+    .profil{
+        /* background-color:rgb(214, 141, 24); */
+        border-color:white;
+        color: black;
+        width: 500px;
+        height: 500px;
+        margin-left: 30px;
+        background:opacity;
+    }
+
+    .tab{
+        width: 500px;
+        height: 430px; 
+        margin-left: 30px;
+        border: 3px solid #F2F2F2;
+
+    }
+
+    .table-warning{
+        width: 350px;
+        height: 30px;  
+        border: 5px;
+        border-color:black;
+        padding: 13px;
+    }
+
+
+
+
+
+      /* le style donnée a ma classe main*/
+      .main {   
+        -ms-flex: 30%; /* IE10 */
+        flex: 30%;
+        padding: 10px;
+        background:hidden;
+        margin-left:30px;
+        margin-right:30px;
+        margin-top: auto;
+        width: 500px;
+        height: 500px;
+      }
+     
+    .jojo{
+            height: 300px;
+            width: 300px;
+            margin-left: 150px;
+            background-color:cadetblue;
+            border-bottom:  solid 3px;
+            display: block;
+            border: 3px solid #F2F2F2;
+            
+            
+        }
+        .tchat1{
+            width: 200px;
+            margin-left: 150px;
+            border: 3px solid white;
+        }
+        #tchat{
+            width: 150px;
+            color: black;
+            background-color: cadetblue;
+            ;
+        
+        }
+
+
+
+     
+  
+    
+
+
+    
+
+    
+    
+
